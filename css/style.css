@@ -112,6 +112,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 40px;
 }
 .about-flex-img, .about-flex-text {
     width: 50%;
@@ -142,6 +143,7 @@ a:hover {
 .title-page {
     text-align: center;
     margin-bottom: 40px;
+    font-size: 34px;
 }
 .services-item-block {
     position: relative;
@@ -235,6 +237,7 @@ a:hover {
 .grey-block-price {
     background: rgba(0,0,0,0.6);
     padding: 20px 0 40px 0;
+    margin-bottom: 40px;
 }
 .flex-price-block {
     display: flex;
@@ -277,4 +280,40 @@ a:hover {
 }
 .grey-block-price .title-page {
     color: #fff;
+}
+.contact-block a {
+    color: #333;
+    border-bottom: 2px solid #333;
+    font-size: 20px;
+}
+.contact-block a:hover {
+    border-bottom: 2px solid transparent;
+}
+.footer-block {
+    background-color: rgba(0,0,0,0.6);
+}
+.footer-flex-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.footer-logo img {
+    width: 280px;
+}
+.footer-flex-block a {
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.social-block {
+    display: flex;
+}
+.social-block i {
+    margin-right: 15px;
+}
+.footer-block .footer-company {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
 }
