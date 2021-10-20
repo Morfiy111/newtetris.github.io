@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
             $('#button-up').fadeIn();
@@ -13,20 +13,20 @@ $(document).ready(function(){
         return false;
     });
 });
-$(document).ready(function(){
-    $(".navbar-nav").on("click","a", function (event) {
+$(document).ready(function () {
+    $(".navbar-nav, .slogan-block").on("click", "a", function (event) {
         event.preventDefault();
-        var id  = $(this).attr('href'),
+        var id = $(this).attr('href'),
             top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 1500);
+        $('body,html').animate({ scrollTop: top }, 1500);
     });
 });
-$(document).ready(function(){
-    $(".footer-links").on("click","a", function (event) {
+$(document).ready(function () {
+    $(".footer-links").on("click", "a", function (event) {
         event.preventDefault();
-        var id  = $(this).attr('href'),
+        var id = $(this).attr('href'),
             top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 1500);
+        $('body,html').animate({ scrollTop: top }, 1500);
     });
 });
 
@@ -36,24 +36,24 @@ $(document).ready(function () {
     });
 });
 
-var itemsCount=2;
+var itemsCount = 2;
 
 if (window.matchMedia("(max-width: 767px)").matches) {
-    itemsCount=1;
+    itemsCount = 1;
 }
 var owl = $('.owl-carousel');
 owl.owlCarousel({
-    items:itemsCount,
-    loop:true,
-    margin:0,
-    nav:true,
-    autoplay:true,
-    autoplayTimeout:3000,
-    autoplayHoverPause:true
+    items: itemsCount,
+    loop: true,
+    margin: 0,
+    nav: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true
 });
-$('.play').on('click',function(){
-    owl.trigger('autoplay.play.owl',[3000])
+$('.play').on('click', function () {
+    owl.trigger('autoplay.play.owl', [3000])
 })
-$('.stop').on('click',function(){
+$('.stop').on('click', function () {
     owl.trigger('autoplay.stop.owl')
 })
