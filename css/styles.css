@@ -153,6 +153,7 @@ a:hover {
     color: #ededed;
     top: 65px;
     left: 25px;
+    right: 25px;
     font-size: 18px;
 }
 .services-list a {
@@ -369,5 +370,86 @@ a:hover {
         width: 100%;
         height: 240px;
         overflow: hidden;
+    }
+}
+@media(max-width: 767px) {
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #333;
+        margin: 15px 0;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #333;
+    }
+    .navbar-nav {
+        flex-wrap: wrap;
+    }
+    .portfolio-block-item {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .footer-flex-block {
+        flex-wrap: wrap;
+    }
+    .header-row-flex {
+        flex-wrap: wrap;
+    }
+    .contact-links-header {
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .contact-block a {
+        font-size: 18px;
+    }
+    .about-flex-text h3 {
+        font-size: 24px;
+    }
+    .slogan-block {
+        padding: 0px 0 40px 0;
+    }
+}
+@media(max-width: 550px) {
+    .services-item-block {
+        height: auto;
+    }
+    .services-list {
+        top: 10px;
+    }
+    .portfolio-block-item {
+        width: 100%;
+    }
+    .flex-price-block-item {
+        width: 100%;
+    }
+    .about-block-flex {
+        flex-wrap: wrap;
+    }
+    .about-flex-img, .about-flex-text {
+        width: 100%;
+    }
+    .about-flex-img {
+        margin-bottom: 20px;
+    }
+    .about-block-flex-mobile {
+        flex-direction: column-reverse;
+    }
+    .footer-logo {
+        width: 100%;
+    }
+    .services-item-block img {
+        height: 348px;
+        text-align: center;
+        max-width: 100%;
+        object-fit: cover;
+    }
+}
+@media(max-width: 346px) {
+    .header-contact-block a {
+        font-size: 16px;
+    }
+    .navbar-nav {
+        display: block;
     }
 }
