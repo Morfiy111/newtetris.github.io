@@ -345,3 +345,18 @@ a:hover {
     padding: 10px 10.79px;
     font-size: 22px;
 }
+@media(max-width: 1199px) {
+    .about-flex-img img {
+        width: 100%;
+        transform: translateX(0%);
+    }
+    .about-flex-img, .about-flex-text {
+        width: 48%;
+    }
+    .services-list {
+        top: 25px;
+    }
+    .slogan-block {
+        padding: 60px 0 120px 0;
+    }
+}
