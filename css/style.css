@@ -305,9 +305,16 @@ a:hover {
     display: block;
     margin-bottom: 10px;
     font-size: 16px;
+    border-bottom: 1px solid transparent;
+}
+.footer-flex-block a:hover {
+    border-bottom: 1px solid #fff;
 }
 .social-block {
     display: flex;
+}
+.footer-logo a:hover {
+    border-bottom: 1px solid transparent;
 }
 .social-block i {
     margin-right: 15px;
