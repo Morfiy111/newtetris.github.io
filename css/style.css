@@ -317,3 +317,24 @@ a:hover {
     text-align: center;
     font-size: 14px;
 }
+#button-up {
+    display: none;
+    right: 30px;
+    margin: 0;
+    position: fixed;
+    bottom: 67px;
+    outline: none;
+    color: #333333;
+    line-height: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 9;
+}
+#button-up::before {
+    font-family: FontAwesome;
+    content: "\f062";
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px 10.79px;
+    font-size: 22px;
+}
