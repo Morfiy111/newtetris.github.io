@@ -203,6 +203,7 @@ a:hover {
 }
 .button-center {
     text-align: center;
+    margin-bottom: 40px;
 }
 .portfolio-deskription a {
     color: #333;
