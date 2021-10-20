@@ -162,7 +162,6 @@ a:hover {
 .services-flex-block {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
 }
 .services-item-block {
     width: 49%;
@@ -451,5 +450,8 @@ a:hover {
     }
     .navbar-nav {
         display: block;
+    }
+    .header-social-block {
+        margin-left: 15px;
     }
 }
