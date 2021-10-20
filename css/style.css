@@ -1,7 +1,7 @@
 body {
     font-family: 'PT Sans', sans-serif;
     color: #333;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.62;
 }
 a, button {
@@ -115,7 +115,6 @@ a:hover {
 }
 .about-flex-img, .about-flex-text {
     width: 50%;
-    padding: 0 35px;
 }
 .about-flex-img img {
     width: 147%;
@@ -225,4 +224,57 @@ a:hover {
 }
 .portfolio-block-item:hover .header-overlay {
     background: rgba(0,0,0,0.2);
+}
+.about-flex-img-right img {
+    width: 131%;
+    transform: translateX(2%);
+}
+.text-margin-bottom {
+    margin-bottom: 30px;
+}
+.grey-block-price {
+    background: rgba(0,0,0,0.6);
+    padding: 20px 0 40px 0;
+}
+.flex-price-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-price-block-item {
+    border: 4px solid #fff;
+    width: 49%;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    transition: all .3s linear;
+    margin-bottom: 40px;
+}
+.flex-price-icon-wrap img {
+    height: 60px;
+    margin-bottom: 20px;
+}
+.flex-price-title {
+    font-size: 28px;
+}
+.flex-price-text {
+    margin-bottom: 20px;
+}
+.flex-price-icon-wrap .svg-item {
+    fill: #fff;
+    height: 80px;
+    transition: all .3s linear;
+}
+.flex-price-description {
+    text-align: left;
+}
+.flex-price-block-item:hover {
+    background-color: #fff;
+    color: #333;
+}
+.flex-price-block-item:hover .svg-item {
+    fill: rgba(0,0,0,0.6);
+}
+.grey-block-price .title-page {
+    color: #fff;
 }
