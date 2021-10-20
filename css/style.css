@@ -1,0 +1,227 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.62;
+}
+a, button {
+    transition: all .3s linear;
+}
+a:hover {
+    text-decoration: none;
+}
+.header-block-page {
+    background-image: url("../images/back.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.header-overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.header-row-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: relative;
+}
+.header-logo img {
+    width: 280px;
+}
+.contact-links-header {
+    display: flex;
+    align-items: center;
+}
+.header-contact-block {
+    display: flex;
+    flex-direction: column;
+}
+.header-contact-block a {
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+}
+.header-social-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100px;
+    margin-left: 20px;
+}
+.header-social-block a {
+    width: 49%;
+    margin-bottom: 10px;
+}
+.contact-links-header a i {
+    color: #fff;
+    font-size: 32px;
+}
+.slogan-block {
+    padding: 160px 0 200px 0;
+    position: relative;
+    color: #ededed;
+    text-align: center;
+}
+.slogan-block h1 {
+    font-size: 44px;
+}
+.subtitle-text {
+    font-size: 30px;
+}
+.overlay-button {
+    color: #ededed;
+    border: 2px solid #ededed;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.overlay-button:hover, .overlay-button:focus {
+    color: #333;
+    background-color: #ededed;
+    text-decoration: none;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #333;
+    border-bottom: 2px solid #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    border-bottom: 2px solid transparent;
+} 
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.about-block-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-flex-img, .about-flex-text {
+    width: 50%;
+    padding: 0 35px;
+}
+.about-flex-img img {
+    width: 147%;
+    transform: translateX(-40%);
+}
+.main-button-page {
+    color: #333;
+    border: 2px solid #333;
+    padding: 15px 30px;
+    font-size: 18px;
+    display: inline-block;
+    background-color: transparent;
+}
+.main-button-page:hover {
+    background-color: #333;
+    color: #ededed;
+    text-decoration: none;
+}
+.about-flex-text p {
+    font-size: 18px;
+}
+.about-flex-text h3 {
+    font-size: 30px;
+}
+.title-page {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.services-item-block {
+    position: relative;
+}
+.services-list {
+    position: absolute;
+    color: #ededed;
+    top: 65px;
+    left: 25px;
+    font-size: 18px;
+}
+.services-list a {
+    color: #ededed;
+}
+.services-flex-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.services-item-block {
+    width: 49%;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.services-item-block:hover {
+    box-shadow: 0px 0px 29px 2px #333;
+}
+.services-item-block img {
+    width: 100%;
+}
+.owl-feedback-form input, .owl-feedback-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+.owl-feedback-form img {
+    max-width: 80px;
+    max-height: 80px;
+}
+.portfolio-page-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.portfolio-block-item {
+    width: 32%;
+    margin-bottom: 40px;
+    transition: all .3s linear;
+}
+.portfolio-block-item:hover {
+    transform: translateY(-4%);
+}
+.portfolio-block-item img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.button-center {
+    text-align: center;
+}
+.portfolio-deskription a {
+    color: #333;
+    border-bottom: 2px solid #333;
+    font-size: 20px;
+}
+.portfolio-deskription a:hover {
+    border-bottom: 2px solid transparent;
+}
+.portfolio-deskription {
+    text-align: center;
+}
+.portfolio-image {
+    position: relative;
+}
+.portfolio-block-item .header-overlay {
+    background: rgba(0,0,0,0.4);
+    transition: all .3s linear;
+}
+.portfolio-block-item:hover .header-overlay {
+    background: rgba(0,0,0,0.2);
+}
